@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="84sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AUGMENTER" />
+
+    <Button
+        android:id="@+id/button_subtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIMINUER" />
+
+    <Button
+        android:id="@+id/button_clear"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REMETTRE À ZÉRO" />
+
+</LinearLayout>
